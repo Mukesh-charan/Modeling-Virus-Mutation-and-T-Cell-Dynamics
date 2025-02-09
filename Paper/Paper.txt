@@ -1,0 +1,6 @@
+Paper title : Modeling Virus Mutation and T-Cell Dynamics in HIV/AIDS: A Comparative Study using Finite Difference and Physics-Informed Neural Network
+Published in: 2024 International Conference on Signal Processing, Computation, Electronics, Power and Telecommunication (IConSCEPT)
+Date of Conference: 04-05 July 2024
+Date Added to IEEE Xplore: 22 August 2024
+DOI: 10.1109/IConSCEPT61884.2024.10627803
+Conference Location: Karaikal, India 
