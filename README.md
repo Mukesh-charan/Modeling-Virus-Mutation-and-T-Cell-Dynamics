@@ -16,10 +16,14 @@ This research paper explores the dynamics of HIV infection by modeling the inter
 ## Methodology
 
 The research uses a system of four equations to model the interactions between T-cells and HIV.
-		dT /dt= s + r*T *(1-((T+TA+TL)/Tmax)) - mu*T - k1*V*T
-		dTA/dt = k1*V*T - mu*TL - k2*TL
-		dTL/dt = k2*TL - beta*TA
-		dV/dt = N*beta*TA- k1*V*T - alpha*V
+```math
+\begin{align*}
+\frac{dT}{dt} &= s + rT\left(1 - \frac{T + T_L + T_A}{T_{\text{max}}}\right) - \mu T - k_1VT, \\
+\frac{dT_L}{dt} &= k_1VT - \mu T_L - k_2T_L, \\
+\frac{dT_A}{dt} &= k_2T_L - \beta T_A, \\
+\frac{dV}{dt} &= N\beta T_A - k_1VT - \alpha V.
+\end{align*}
+```
 
 *   The equations describe the behavior of normal T-cells, latently infected T-cells, actively infected T-cells, and the virus.
 *   The study uses both Finite Difference Method (FDM) and Physics-Informed Neural Networks (PINNs) to solve the system of equations.
